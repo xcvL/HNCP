@@ -13,7 +13,7 @@ CNN models are in the "models" folder.
 
 Weights are in the "weights" foler.
 
-Traning logs are in the "fold" folder. 
+Traning logs are in the "folds" folder. 
 
 
 "screenshot.png" is predict image. 
