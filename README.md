@@ -6,14 +6,14 @@ Handwritten Number Calculator Program
 
 `FilesSL` is a module for "display".
 
-"display" is the main program(Handwritten Number Calculator Program).
+`display` is the main program(Handwritten Number Calculator Program).
 
 
-CNN models are in the "models" folder.
+CNN models are in the `models` folder.
 
-Weights are in the "weights" foler.
+Weights are in the `weights` foler.
 
-Traning logs are in the "folds" folder. 
+Traning logs are in the `folds` folder. 
 
 
-"screenshot.png" is predict image. 
+`screenshot.png` is predict image. 
