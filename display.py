@@ -13,7 +13,7 @@ pygame.init()
 
 # 모델 경로
 # path_model="D:/Coding/Python/Machine_Learning/CNN/models/model2_5.h5"
-path_model="C:/1_Coding/Coding_1/PYTHON/CNN/models/model2_5.h5"
+path_model="C:/1_Coding/Coding_1/PYTHON/HNCP/models/model2_5.h5"
 
 
 # 모델 로드
@@ -112,7 +112,7 @@ while running:
             if event.type==pygame.MOUSEMOTION:
                 xPos, yPos=pygame.mouse.get_pos()
                 eraseList.append((xPos, yPos)) # 좌표 저장
-                pygame.draw.circle(background, (255, 255, 255), (xPos, yPos), 6) # 점 그리기
+                pygame.draw.circle(background, (255, 255, 255), (xPos, yPos), e) # 점 그리기
                 if len(eraseList)>1:
                         pygame.draw.line(background, (255, 255, 255), eraseList[-2], eraseList[-1], 2*e+3) # 점 사이 잇기
                 
@@ -137,7 +137,7 @@ while running:
             
             # 스크린샷 이미지 경로
             # path_image=f"D:/Coding/Python/Machine_Learning/CNN/screenshot.png"
-            path_image="C:/1_Coding/Coding_1/PYTHON/CNN/screenshot.png"
+            path_image="C:/1_Coding/Coding_1/PYTHON/HNCP/screenshot.png"
             pag.screenshot(path_image)
             
             # 대기 문구 표시
