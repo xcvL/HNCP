@@ -11,7 +11,7 @@ Handwritten Number Calculator Program
 
 CNN models are in the `models` folder.
 
-Weights are in the `weights` foler.
+Weights are in the `weights` folder.
 
 Traning logs are in the `folds` folder. 
 
