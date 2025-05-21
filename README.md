@@ -4,7 +4,7 @@ Handwritten Number Calculator Program
 
 `traning images` is a CNN model generation file.
 
-`FilesSL` is a module for "display".
+`FilesSL` is a module for `display`.
 
 `display` is the main program(Handwritten Number Calculator Program).
 
